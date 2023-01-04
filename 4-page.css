@@ -1,0 +1,116 @@
+/* (A) livre d'or entrée */
+.body{
+  text-align: center;
+}
+.corps{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+}
+.gb-row {
+  background: #1b1f22;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 600px;
+  font-family: Verdana, sans-serif;
+  border-radius: 10px
+}
+.gb-datetime {
+  color: #888;
+  font-size: 0.9em;
+  padding: 5px 0;
+  font-family:Verdana, sans-serif 
+}
+.gb-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  font-family: Verdana, sans-serif;
+  color: #6ac6ff;
+  
+
+}
+.gb-name-a {
+  text-transform: uppercase;
+  color: #6ac6ff;
+  font-family: Verdana, sans-serif;;
+  color: #fff;
+}
+.gb-comment { 
+  padding-top: 10px;
+  color: #fff;
+ }
+
+/* (B) signé le livre d'or */
+#gb-form {
+  text-transform: uppercase;
+  margin-top: 20px;
+  background: #1b1f22;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 600px;
+  font-family: Verdana, sans-serif;
+  color: #fff;
+  border-radius: 5px
+}
+#gb-form textarea {
+  height: 100px;
+  color: #fff;
+  background: #1b1f22;
+  border: 1px solid #fff;
+}
+#gb-form textarea:hover {
+  background: #2A3237;
+  border: 2px solid #fff;
+}
+#gb-form input {
+  color: #fff;
+  background: #1b1f22;
+  border: 1px solid #fff;
+}
+#gb-form input:hover{
+  background: #2A3237;
+  border: 2px solid #fff;
+}
+#gb-form div{
+  display: flex;
+  align-content: space-between;
+}
+#gb-form div .box1{
+  flex-direction: column;
+}
+#gb-form div .box2{
+  margin-left: 225px;
+  flex-direction: column;
+}
+#gb-form label, #gb-form input, #gb-form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 5px;
+  resize: none;
+}
+#gb-form input[type=submit] {
+  margin-top: 15px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  width: 300px;
+  background: #6ac6ff;
+  color: rgb(0, 0, 0);
+  border: 0;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px
+  
+}
+
+
+html, body { 
+  background-color: #f5f5f5
+  
+  
+  font-family: Verdana, sans-serif; }
